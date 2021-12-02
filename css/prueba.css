@@ -1,0 +1,22 @@
+.menu{
+    background-color: aqua;
+    margin: 20px;
+    justify-content: space-between;
+
+    flex-wrap:wrap ;
+    
+}
+
+.informacion{
+    margin:10px ;
+    display:flex ;
+    flex-direction: column-reverse;
+}
+
+
+@media screen and (max-width: 640px) {
+    .menu {
+      background: blue;
+      margin: 5px;
+    }
+  }
